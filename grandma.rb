@@ -1,11 +1,11 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(phrase)
   if phrase == "I LOVE YOU GRANDMA!"
-  puts "I LOVE YOU TOO PUMPKIN!"
+    return puts "I LOVE YOU TOO PUMPKIN!"
   eslif phrase == "#{phrase}"
-    puts "NO, NOT SINCE 1938!"
+    return puts "NO, NOT SINCE 1938!"
   else phrase == "#{phrase}".upcase
-    puts "HUH?! SPEAK UP, SONNY!"
+    return puts "HUH?! SPEAK UP, SONNY!"
   end
 end
 # Whatever you say to grandma, she should respond with
